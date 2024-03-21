@@ -94,7 +94,7 @@ mongoose
 
 //  Iteration 5 - Get All Recipes
 
-Book.find(Book).then((result) => {
+Book.find().then((result) => {
   console.log(result);
 });
 
